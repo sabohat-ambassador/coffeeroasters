@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:wght@900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+:root{
+    font-size: 14px;
+}
+body{
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;
+
+}
+
+/* umumiy stillar */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container2{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    }
+a{
+    text-decoration: none;
+}
+.first-theme{
+    color: #FEFCF7;
+    font-size: 5rem;
+    margin:0;
+}
+.article-text{
+    color: #FEFCF7;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.14rem;
+    line-height: 1.85rem;
+}
+
+.create{
+    background: #0E8784;
+    color: #FEFCF7;
+font-size: 1.28rem;
+border-radius: 6px;
+padding: 15px 31px;
+}
+
+.create:hover{
+    background: #66D2CF;
+
+}
+
+/*first -section */
+
+.main-header{
+    padding-top: 44px;
+}
+
+.main-header .row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav a{
+text-decoration: none;
+color: #83888F;
+font-size: 0.85rem;
+font-family: 'Barlow', sans-serif;
+margin: 17px;
+}
+.main-nav a:hover{
+    color: #333D4B;
+}
+
+.plan{
+    text-transform: uppercase;
+}
+
+.first-article{
+    background-image: url(../img/Bitmap.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+    height: 600px;
+    margin-top: 32px;
+}
+.article-page{
+    width: 493px;
+    padding-top: 70px;
+    margin-left: 86px;
+}
+
+.first-article .article-text{
+    margin-bottom: 56px;
+    width: 443px;
+}
+
+/* second-section */
+.second-section{
+    margin-top: 50px;
+}
+.shadowtext img{
+    text-align: center;
+}
+
+.column4{
+    width: 25%;
+}
+.column4 img{
+    margin-top: -70px;
+    text-align: center;
+}
+
+.second-text{
+    margin: 0 auto;
+    width: 225px;
+    text-align: center;
+}
+.coffee-name{
+    font-size: 1.70rem;
+    color: #333D4B;
+}
+
+.column4 .article-text{
+    color: #333D4B;
+
+}
+
+/* third-section */
+
+.second-article{
+    background-color:#333D4B ;
+    border-radius: 10px;
+    height: 600px;
+    
+}
+
+.second-article h3{
+    color: #FEFCF7;
+font-size: 2.85rem;
+text-align: center;
+padding-top: 100px;
+}
+
+.section-text3{
+    color: #FEFCF7;
+width: 540px;
+text-align: center;
+margin: 0 auto;
+font-family: 'Barlow', sans-serif;
+font-size: 1.14rem;
+line-height: 1.85rem;
+}
+
+.card{
+    width: 350px;
+    background: #0E8784;
+    margin-top: 90px;
+border-radius: 8px;
+text-align: center;
+
+}
+
+
+.card:not(:last-child){
+    margin-right: 30px;
+}
+.card img{
+    margin-top: 70px;
+}
+.third-section .coffee-name{
+    color: #FEFCF7;
+    margin-bottom: -24px;
+}
+
+.width{
+   width: 255px;
+   margin: 40px auto;
+}
+
+/* four-section */
+
+.four-section{
+    margin-top: 200px;
+}
+
+
+.path{
+margin-top: 80px;
+    position: relative;
+}
+
+.line{
+    display: inline-block;
+    width: 750px;
+    border: 2px solid #FDD6BA;
+}
+.circle{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #0E8784;
+    position: absolute;
+    background-color: white;
+}
+
+.circle:nth-child(2){
+    top: -4px;
+    
+}
+
+.circle:nth-child(3){
+    top: -4px;
+    left: 375px;
+}
+
+.circle:nth-child(4){
+    top: -4px;
+    left: 0;
+}
+.four-section .row{
+    justify-content: space-between;
+}
+.four-section h4{
+    color:  #83888F;
+    font-size: 1.70rem;
+}
+
+.works{
+    margin-top: 80px;
+   margin-bottom: 60px;
+}
+.works h3{
+    color: #333D4B;
+font-size: 2.02rem;
+width: 255px;
+}
+
+.four-section .article-text{
+    color: #333D4B;
+width: 285px;
+}
+
+/* main-footer */
+
+.main-footer{
+    background: #2C343E;
+padding: 44px;
+margin-top: 200px;
+margin-bottom: 80px;
+}
+
+.main-footer .row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-footer .menu a{
+    color: #83888F;
+font-size: 0.85rem;
+font-family: 'Barlow', sans-serif;
+margin: 17px;
+}
+.menu a:hover{
+    color: #FEFCF7;
+
+}
+
+.sayts a{
+    color:  #FEFCF7;
+    font-size: 1.70rem;
+    margin: 0 12px;
+}
+
+.sayts a:hover{
+    color: #FDD6BA;
+
+}
